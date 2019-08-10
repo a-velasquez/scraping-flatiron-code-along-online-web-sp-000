@@ -42,7 +42,7 @@ class Scraper
   
 end
 
-Scraper.new.print_course 
+Scraper.new.print_courses 
 
 
 
