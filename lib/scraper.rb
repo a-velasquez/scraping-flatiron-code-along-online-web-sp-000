@@ -24,6 +24,7 @@ class Scraper
       self.get_courses.each do |post|
         course = Course.new 
         course.title = post.
+      end
     end
   
     def print_courses
